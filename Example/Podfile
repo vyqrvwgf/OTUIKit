@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OTUIKit_Example' do
+  pod 'OTUIKit', :path => '../'
+
+  target 'OTUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

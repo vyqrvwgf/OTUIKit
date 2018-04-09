@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005022B70767BF2160E8545E1CB4FA62 /* Pods-OTUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E20728246F97F3E595CB9717300F6C /* Pods-OTUIKit_Example-dummy.m */; };
+		28ACD13F053FD280F4FE12CC18F66347 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2B66AEA7BF8202783C45BF34A385896E /* Pods-OTUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF06CD564204189AA779D5A98F9506E0 /* Pods-OTUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4924DABDAE60429AD93196A52F3E8A11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		84A3F62D0CE10C5A59F0AB5DA058A07A /* OTUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3ECD1DF787D159E1642ED5EB30C1B9 /* OTUIKit-dummy.m */; };
+		A1341F5FFB48522C2EBB460F9CE3947C /* Pods-OTUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0631BED8B0AD1682AD0ED87245397D72 /* Pods-OTUIKit_Tests-dummy.m */; };
+		C6B77308714112E4B6269809B77DA717 /* OTUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2653464864C1FA4F6F6AF9CBD317C7 /* OTUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD3A8BB6D9BDA1C76361E587A37AE41F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E2845C0495A953B5E52C7E1C0D513F3B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AE03B62308007725E444E498FC1B05 /* ReplaceMe.swift */; };
+		EE685310412B109CD4139C9B0B37DC18 /* Pods-OTUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 942253F58C905FCDBB14F647324C5F64 /* Pods-OTUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDD515E24F18B4C716C81F0E167CF7C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF825D3CE3A1166E4B9BA3DFC9F0BB81;
+			remoteInfo = OTUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E20728246F97F3E595CB9717300F6C /* Pods-OTUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTUIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		0631BED8B0AD1682AD0ED87245397D72 /* Pods-OTUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		09AC305F3DBC58FE14712B856B0FB097 /* Pods-OTUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B2653464864C1FA4F6F6AF9CBD317C7 /* OTUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTUIKit-umbrella.h"; sourceTree = "<group>"; };
+		0C09279F5AED9D5050E01CF60E29C66C /* OTUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTUIKit.xcconfig; sourceTree = "<group>"; };
+		1679CAE1F05170FFBB681D493BC138DA /* Pods-OTUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTUIKit_Example.modulemap"; sourceTree = "<group>"; };
+		2A96B452A489BEFF5947C20F3B9CC27A /* Pods-OTUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		35C2E6A249BF3C1B4EC5AB264665CD0D /* Pods-OTUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F71F25F6E67A7AFB9C5CD06B80F137B /* Pods-OTUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		58E959D30BD44462279F2B4B32467EDD /* OTUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTUIKit-prefix.pch"; sourceTree = "<group>"; };
+		5B2AC8DECE6AAE7B556FB77F54FDE4E4 /* Pods-OTUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		6039F3398C650FE6CC64EF4A2D73CB62 /* OTUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTUIKit.framework; path = OTUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62702DC352BBCC0C23B06431944EE000 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		699620573AE7D09FBC16CC260BDB3985 /* Pods_OTUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTUIKit_Example.framework; path = "Pods-OTUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8400A8DD6AE49A1837BFC4ADC01578D0 /* Pods-OTUIKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTUIKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		86AE6B351E3D52A23D799C844F689062 /* Pods-OTUIKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTUIKit_Example-resources.sh"; sourceTree = "<group>"; };
+		89AE03B62308007725E444E498FC1B05 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OTUIKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		8A3ECD1DF787D159E1642ED5EB30C1B9 /* OTUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTUIKit-dummy.m"; sourceTree = "<group>"; };
+		91D49A67286E82E800085AD077506D9E /* OTUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTUIKit.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93DF00335D320F375894FC2EAA2F6F6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		942253F58C905FCDBB14F647324C5F64 /* Pods-OTUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		A28321F2808FC7262DF1995F292AD9A1 /* Pods-OTUIKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTUIKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AF06CD564204189AA779D5A98F9506E0 /* Pods-OTUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BA7FA1FCD52AE66E9691BFF9B1C4E405 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB65AD30EA511D082D111B832D753F29 /* Pods-OTUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C067D5A6490A70F6A94FE6ABCDD7BAFD /* Pods-OTUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DB055CFD559BA5F6700F957A8F98DD1B /* Pods-OTUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1F393A2FE1494F595F075B6881B0F4F /* Pods-OTUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E25EA5C207570CD7AF7CABC336EAC225 /* Pods-OTUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FC745EE87869CE811B7424EDF5D45836 /* Pods_OTUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTUIKit_Tests.framework; path = "Pods-OTUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C067FCFE03BB0914289ED4D99BA23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4924DABDAE60429AD93196A52F3E8A11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271BCFC8678017CB103A360B8058DDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3A8BB6D9BDA1C76361E587A37AE41F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E60F57318D261F49910AF90B1D57D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28ACD13F053FD280F4FE12CC18F66347 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012AEC3C9F5A841AB38F0FCA33055B2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6039F3398C650FE6CC64EF4A2D73CB62 /* OTUIKit.framework */,
+				699620573AE7D09FBC16CC260BDB3985 /* Pods_OTUIKit_Example.framework */,
+				FC745EE87869CE811B7424EDF5D45836 /* Pods_OTUIKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		294CC459EDE185EF054EF5D51A8E90DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68A5952501C8DDD2BC4F6B8D88EEB9F7 /* Pods-OTUIKit_Example */,
+				C55128A7767B273DE8FB8BEC78DE1A36 /* Pods-OTUIKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3B45C98B6A7704123BF51D9C2DEA062C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93DF00335D320F375894FC2EAA2F6F6C /* Info.plist */,
+				91D49A67286E82E800085AD077506D9E /* OTUIKit.modulemap */,
+				0C09279F5AED9D5050E01CF60E29C66C /* OTUIKit.xcconfig */,
+				8A3ECD1DF787D159E1642ED5EB30C1B9 /* OTUIKit-dummy.m */,
+				58E959D30BD44462279F2B4B32467EDD /* OTUIKit-prefix.pch */,
+				0B2653464864C1FA4F6F6AF9CBD317C7 /* OTUIKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OTUIKit";
+			sourceTree = "<group>";
+		};
+		68A5952501C8DDD2BC4F6B8D88EEB9F7 /* Pods-OTUIKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BA7FA1FCD52AE66E9691BFF9B1C4E405 /* Info.plist */,
+				1679CAE1F05170FFBB681D493BC138DA /* Pods-OTUIKit_Example.modulemap */,
+				09AC305F3DBC58FE14712B856B0FB097 /* Pods-OTUIKit_Example-acknowledgements.markdown */,
+				35C2E6A249BF3C1B4EC5AB264665CD0D /* Pods-OTUIKit_Example-acknowledgements.plist */,
+				05E20728246F97F3E595CB9717300F6C /* Pods-OTUIKit_Example-dummy.m */,
+				4F71F25F6E67A7AFB9C5CD06B80F137B /* Pods-OTUIKit_Example-frameworks.sh */,
+				86AE6B351E3D52A23D799C844F689062 /* Pods-OTUIKit_Example-resources.sh */,
+				942253F58C905FCDBB14F647324C5F64 /* Pods-OTUIKit_Example-umbrella.h */,
+				E25EA5C207570CD7AF7CABC336EAC225 /* Pods-OTUIKit_Example.debug.xcconfig */,
+				C067D5A6490A70F6A94FE6ABCDD7BAFD /* Pods-OTUIKit_Example.release.xcconfig */,
+			);
+			name = "Pods-OTUIKit_Example";
+			path = "Target Support Files/Pods-OTUIKit_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8C996B264416CC65B2834D332CBEFB03 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				012AEC3C9F5A841AB38F0FCA33055B2B /* Products */,
+				294CC459EDE185EF054EF5D51A8E90DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C996B264416CC65B2834D332CBEFB03 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E43897DAD422AFF543F022599993972D /* OTUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C55128A7767B273DE8FB8BEC78DE1A36 /* Pods-OTUIKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				62702DC352BBCC0C23B06431944EE000 /* Info.plist */,
+				5B2AC8DECE6AAE7B556FB77F54FDE4E4 /* Pods-OTUIKit_Tests.modulemap */,
+				E1F393A2FE1494F595F075B6881B0F4F /* Pods-OTUIKit_Tests-acknowledgements.markdown */,
+				DB055CFD559BA5F6700F957A8F98DD1B /* Pods-OTUIKit_Tests-acknowledgements.plist */,
+				0631BED8B0AD1682AD0ED87245397D72 /* Pods-OTUIKit_Tests-dummy.m */,
+				A28321F2808FC7262DF1995F292AD9A1 /* Pods-OTUIKit_Tests-frameworks.sh */,
+				8400A8DD6AE49A1837BFC4ADC01578D0 /* Pods-OTUIKit_Tests-resources.sh */,
+				AF06CD564204189AA779D5A98F9506E0 /* Pods-OTUIKit_Tests-umbrella.h */,
+				2A96B452A489BEFF5947C20F3B9CC27A /* Pods-OTUIKit_Tests.debug.xcconfig */,
+				BB65AD30EA511D082D111B832D753F29 /* Pods-OTUIKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-OTUIKit_Tests";
+			path = "Target Support Files/Pods-OTUIKit_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E43897DAD422AFF543F022599993972D /* OTUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				89AE03B62308007725E444E498FC1B05 /* ReplaceMe.swift */,
+				3B45C98B6A7704123BF51D9C2DEA062C /* Support Files */,
+			);
+			name = OTUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1618DBB29CED32F479CAD9A1B66A21A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE685310412B109CD4139C9B0B37DC18 /* Pods-OTUIKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5B08DE40A0F42C1C8D3E616521C7BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B77308714112E4B6269809B77DA717 /* OTUIKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49A88522CFFB686D80F00535D30EAC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B66AEA7BF8202783C45BF34A385896E /* Pods-OTUIKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		647F26A0DDEB9E33C11663C366C5DFFB /* Pods-OTUIKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74496A57006884E5B13FFDC0B4E5DA5 /* Build configuration list for PBXNativeTarget "Pods-OTUIKit_Tests" */;
+			buildPhases = (
+				BF3732DB88F955F4842E6ABE2AFD4BBB /* Sources */,
+				7E60F57318D261F49910AF90B1D57D91 /* Frameworks */,
+				B49A88522CFFB686D80F00535D30EAC2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OTUIKit_Tests";
+			productName = "Pods-OTUIKit_Tests";
+			productReference = FC745EE87869CE811B7424EDF5D45836 /* Pods_OTUIKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF825D3CE3A1166E4B9BA3DFC9F0BB81 /* OTUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8B95955350377B85E6C338BC49EA2E /* Build configuration list for PBXNativeTarget "OTUIKit" */;
+			buildPhases = (
+				CF5BBCB94348BBA067294B02ED6AB2BE /* Sources */,
+				09C067FCFE03BB0914289ED4D99BA23D /* Frameworks */,
+				5B5B08DE40A0F42C1C8D3E616521C7BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTUIKit;
+			productName = OTUIKit;
+			productReference = 6039F3398C650FE6CC64EF4A2D73CB62 /* OTUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC5CE22C40C77C7894DA0CB0FC024035 /* Pods-OTUIKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64C02CE6C740D01412CC617B4C70248 /* Build configuration list for PBXNativeTarget "Pods-OTUIKit_Example" */;
+			buildPhases = (
+				818DDB9ADCD0FDF9D6D008F5F7830566 /* Sources */,
+				271BCFC8678017CB103A360B8058DDE2 /* Frameworks */,
+				1618DBB29CED32F479CAD9A1B66A21A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7892F968CC91BB547E885E86AB5E1C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-OTUIKit_Example";
+			productName = "Pods-OTUIKit_Example";
+			productReference = 699620573AE7D09FBC16CC260BDB3985 /* Pods_OTUIKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 012AEC3C9F5A841AB38F0FCA33055B2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF825D3CE3A1166E4B9BA3DFC9F0BB81 /* OTUIKit */,
+				FC5CE22C40C77C7894DA0CB0FC024035 /* Pods-OTUIKit_Example */,
+				647F26A0DDEB9E33C11663C366C5DFFB /* Pods-OTUIKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		818DDB9ADCD0FDF9D6D008F5F7830566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005022B70767BF2160E8545E1CB4FA62 /* Pods-OTUIKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3732DB88F955F4842E6ABE2AFD4BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1341F5FFB48522C2EBB460F9CE3947C /* Pods-OTUIKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5BBCB94348BBA067294B02ED6AB2BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A3F62D0CE10C5A59F0AB5DA058A07A /* OTUIKit-dummy.m in Sources */,
+				E2845C0495A953B5E52C7E1C0D513F3B /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7892F968CC91BB547E885E86AB5E1C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTUIKit;
+			target = DF825D3CE3A1166E4B9BA3DFC9F0BB81 /* OTUIKit */;
+			targetProxy = BDD515E24F18B4C716C81F0E167CF7C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A71059047CF4AECAA97E7B8B4C983F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB65AD30EA511D082D111B832D753F29 /* Pods-OTUIKit_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTUIKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTUIKit_Tests/Pods-OTUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OTUIKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E63EFFC7345318A49554E15448F079C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A96B452A489BEFF5947C20F3B9CC27A /* Pods-OTUIKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTUIKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTUIKit_Tests/Pods-OTUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OTUIKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7E5F5C7A4E4A15BD9075A39F5F544096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C09279F5AED9D5050E01CF60E29C66C /* OTUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTUIKit/OTUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTUIKit/OTUIKit.modulemap";
+				PRODUCT_NAME = OTUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E6817B1B1B6EA6AA907674E93047998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E25EA5C207570CD7AF7CABC336EAC225 /* Pods-OTUIKit_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTUIKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTUIKit_Example/Pods-OTUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OTUIKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AA166CCD96D0A7BF63BCD6EE4C5DD1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C067D5A6490A70F6A94FE6ABCDD7BAFD /* Pods-OTUIKit_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTUIKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTUIKit_Example/Pods-OTUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OTUIKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E166EF9913DE5693100A0EFBD3C0ED2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C09279F5AED9D5050E01CF60E29C66C /* OTUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTUIKit/OTUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTUIKit/OTUIKit.modulemap";
+				PRODUCT_NAME = OTUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D8B95955350377B85E6C338BC49EA2E /* Build configuration list for PBXNativeTarget "OTUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E166EF9913DE5693100A0EFBD3C0ED2C /* Debug */,
+				7E5F5C7A4E4A15BD9075A39F5F544096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64C02CE6C740D01412CC617B4C70248 /* Build configuration list for PBXNativeTarget "Pods-OTUIKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6817B1B1B6EA6AA907674E93047998 /* Debug */,
+				AA166CCD96D0A7BF63BCD6EE4C5DD1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C74496A57006884E5B13FFDC0B4E5DA5 /* Build configuration list for PBXNativeTarget "Pods-OTUIKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E63EFFC7345318A49554E15448F079C /* Debug */,
+				1A71059047CF4AECAA97E7B8B4C983F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
