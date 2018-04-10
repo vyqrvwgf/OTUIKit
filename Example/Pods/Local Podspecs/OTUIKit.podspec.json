@@ -1,9 +1,9 @@
 {
   "name": "OTUIKit",
-  "version": "0.1.0",
-  "summary": "A short description of OTUIKit.",
+  "version": "0.1.4",
+  "summary": "OpalTrip UIKit",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sanlazy/OTUIKit",
+  "homepage": "https://github.com/vyqrvwgf/OTUIKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "sanlazy": "hanlei@meiqia.com"
   },
   "source": {
-    "git": "https://github.com/sanlazy/OTUIKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/vyqrvwgf/OTUIKit.git",
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "OTUIKit/Classes/**/*"
+  "source_files": "OTUIKit/Classes/**/*",
+  "dependencies": {
+    "OTExtension": [
+
+    ],
+    "SnapKit": [
+
+    ]
+  }
 }
