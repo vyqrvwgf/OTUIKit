@@ -1,6 +1,6 @@
 PODS:
   - OTExtension (0.1.5)
-  - OTUIKit (0.1.4):
+  - OTUIKit (0.1.5):
     - OTExtension
     - SnapKit
   - SnapKit (4.0.0)
@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   OTExtension: a28e4dc71a3f4f051f8a7997a13265c188c8ecbc
-  OTUIKit: 92643ae80cf24eb4551f1ba5b4db15fb9e04c1fa
+  OTUIKit: ddbddbd4251d3582579880a7dace903401971ab6
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
 PODFILE CHECKSUM: 96053bb64965bf8933b65ffdfa25ecc1f76af500

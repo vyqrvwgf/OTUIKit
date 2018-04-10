@@ -10,9 +10,9 @@ import UIKit
 import OTExtension
 import SnapKit
 
-class OTTextField: UITextField {
+public class OTTextField: UITextField {
 
-    struct OTTextFieldConfig {
+    public struct OTTextFieldConfig {
         public var frame: CGRect = .zero
         public var title: String = ""
         public var titleColor: UIColor = .black
@@ -106,7 +106,7 @@ class OTTextField: UITextField {
     }()
 }
 
-extension OTTextField {
+public extension OTTextField {
     
     public class var accountInsertConfig: OTTextFieldConfig {
         get {

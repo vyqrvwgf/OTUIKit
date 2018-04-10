@@ -10,9 +10,9 @@ import UIKit
 import OTExtension
 import SnapKit
 
-class OTButton: UIButton {
+public class OTButton: UIButton {
     
-    struct OTButtonConfig {
+    public struct OTButtonConfig {
         public var frame: CGRect = .zero
         public var title: String = ""
         public var titleColor: UIColor = .black
@@ -76,7 +76,7 @@ class OTButton: UIButton {
     }()
 }
 
-extension OTButton {
+public extension OTButton {
     // 登录按钮的配置
     public class var loginConfig: OTButtonConfig {
         get {

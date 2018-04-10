@@ -8,9 +8,9 @@
 
 import UIKit
 
-class OTLabel: UILabel {
+public class OTLabel: UILabel {
 
-    struct OTLabelConfig {
+    public struct OTLabelConfig {
         public var frame: CGRect = .zero
         public var title: String = ""
         public var titleColor: UIColor = .black
@@ -49,7 +49,7 @@ class OTLabel: UILabel {
     }
 }
 
-extension OTLabel {
+public extension OTLabel {
     
     public class var titleConfig: OTLabelConfig {
         get {
