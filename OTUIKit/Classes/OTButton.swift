@@ -22,6 +22,9 @@ public class OTButton: UIButton {
         public var borderColor: UIColor = .white
         public var borderWidth: CGFloat = 0.0
         public var imageName: String = ""
+        public init() {
+            
+        }
     }
     
     // MARK: - Public

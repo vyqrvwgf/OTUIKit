@@ -27,6 +27,9 @@ public class OTTextField: UITextField {
         public var isShowUnderline: Bool = true
         public var isShowEye: Bool = false
         public var keyboardType: UIKeyboardType = .default
+        public init() {
+            
+        }
     }
     
     // MARK: - Public

@@ -21,6 +21,9 @@ public class OTLabel: UILabel {
         public var borderWidth: CGFloat = 0.0
         public var numberOfLines: Int = 1
         public var textAlignment: NSTextAlignment = .left
+        public init() {
+            
+        }
     }
     
     // MARK: - Public
