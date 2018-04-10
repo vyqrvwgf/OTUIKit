@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OTTextField: UITextField, OTObservable {
+class OTTextField: UITextField {
 
     struct OTTextFieldConfig {
         public var frame: CGRect = .zero
@@ -34,9 +34,6 @@ class OTTextField: UITextField, OTObservable {
         }
     }
     
-    // MARK: - Private
-    private var title: String = ""
-    
     // MARK: - Life Cycle
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -46,11 +43,6 @@ class OTTextField: UITextField, OTObservable {
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-    
-    // MARK: - Observable
-    func languageChange() {
-        placeholder = Bundle.localizedString(text: title)
     }
     
     // MARK: - Custom Method
@@ -64,13 +56,12 @@ class OTTextField: UITextField, OTObservable {
     }
     
     private func setup(config: OTTextFieldConfig) {
-        title = config.placeholder
         text = config.title
         textColor = config.titleColor
         font = UIFont.systemFont(ofSize: config.fontSize)
         textAlignment = config.textAlignment
         backgroundColor = config.backgroundColor
-        placeholder = Bundle.localizedString(text: config.placeholder)
+        placeholder = config.placeholder
         keyboardType = config.keyboardType
         
         underlineView.isHidden = !config.isShowUnderline

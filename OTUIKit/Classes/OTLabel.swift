@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OTLabel: UILabel, OTObservable {
+class OTLabel: UILabel {
 
     struct OTLabelConfig {
         public var frame: CGRect = .zero
@@ -30,18 +30,9 @@ class OTLabel: UILabel, OTObservable {
         }
     }
     
-    // MARK: - Private
-    private var title: String = ""
-    
-    // MARK: - Observable
-    func languageChange() {
-        text = Bundle.localizedString(text: title)
-    }
-    
     // MARK: - Custom Method
     private func setup(config: OTLabelConfig) {
-        title = config.title
-        text = Bundle.localizedString(text: config.title)
+        text = config.title
         textColor = config.titleColor
         font = UIFont.systemFont(ofSize: config.fontSize)
         numberOfLines = config.numberOfLines

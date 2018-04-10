@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OTButton: UIButton, OTObservable {
+class OTButton: UIButton {
     
     struct OTButtonConfig {
         public var frame: CGRect = .zero
@@ -33,9 +33,6 @@ class OTButton: UIButton, OTObservable {
         isShow ? indicator.startAnimating() : indicator.stopAnimating()
     }
     
-    // MARK: - Private
-    private var title: String = ""
-    
     // MARK: - Life Cycle
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -52,15 +49,9 @@ class OTButton: UIButton, OTObservable {
         fatalError("init(coder:) has not been implemented")
     }
     
-    // MARK: - Observable
-    func languageChange() {
-        setTitle(Bundle.localizedString(text: title), for: .normal)
-    }
-    
     // MARK: - Custom Method
     private func setup(config: OTButtonConfig, state: UIControlState) {
-        title = config.title
-        setTitle(Bundle.localizedString(text: config.title), for: state)
+        setTitle(config.title, for: state)
         setTitleColor(config.titleColor, for: state)
         setImage(UIImage(named: config.imageName), for: state)
         titleLabel?.font = UIFont.systemFont(ofSize: config.fontSize)
