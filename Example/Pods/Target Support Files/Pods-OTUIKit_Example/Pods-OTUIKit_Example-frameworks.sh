@@ -103,11 +103,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/OTExtension/OTExtension.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/OTMacro/OTMacro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/OTUIKit/OTUIKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/OTExtension/OTExtension.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/OTMacro/OTMacro.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/OTUIKit/OTUIKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
 fi

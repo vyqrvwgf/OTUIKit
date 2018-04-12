@@ -57,7 +57,7 @@ public extension OTLabel {
     public class var titleConfig: OTLabelConfig {
         get {
             var config = OTLabel.OTLabelConfig()
-            config.title = "login_title"
+            config.title = Bundle.localizedString(text: "login_title")
             config.titleColor = .black
             config.fontSize = 20.0
             return config

@@ -1,6 +1,8 @@
 PODS:
-  - OTExtension (0.1.5)
-  - OTUIKit (0.1.5):
+  - OTExtension (0.2.1):
+    - OTMacro
+  - OTMacro (0.1.2)
+  - OTUIKit (0.1.8):
     - OTExtension
     - SnapKit
   - SnapKit (4.0.0)
@@ -13,8 +15,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  OTExtension: a28e4dc71a3f4f051f8a7997a13265c188c8ecbc
-  OTUIKit: ddbddbd4251d3582579880a7dace903401971ab6
+  OTExtension: e6ef32b318b9d15364798b54540b82dea9ee5fed
+  OTMacro: 98554f0b7f8b776f7bc51a08f1ada2d9374b6355
+  OTUIKit: 398ff8e727ca5b8e798b119d271ab6b99ae09f65
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
 PODFILE CHECKSUM: 96053bb64965bf8933b65ffdfa25ecc1f76af500

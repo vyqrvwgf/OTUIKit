@@ -58,7 +58,7 @@ public class OTButton: UIButton {
     private func setup(config: OTButtonConfig, state: UIControlState) {
         setTitle(config.title, for: state)
         setTitleColor(config.titleColor, for: state)
-        setImage(UIImage(named: config.imageName), for: state)
+        setImage(UIImage.image(named: config.imageName), for: state)
         titleLabel?.font = UIFont.systemFont(ofSize: config.fontSize)
         backgroundColor = config.backgroundColor
         indicator.activityIndicatorViewStyle = config.backgroundColor == .white ? .gray : .white
@@ -84,7 +84,7 @@ public extension OTButton {
     public class var loginConfig: OTButtonConfig {
         get {
             var config = OTButtonConfig()
-            config.title = "login"
+            config.title = Bundle.localizedString(text: "login")
             config.titleColor = .black
             config.fontSize = 15.0
             config.cornerRadius = 5.0
@@ -99,7 +99,7 @@ public extension OTButton {
     public class var wechatLoginConfig: OTButtonConfig {
         get {
             var config = OTButtonConfig()
-            config.title = "wechat_login"
+            config.title = Bundle.localizedString(text: "wechat_login")
             config.titleColor = .white
             config.fontSize = 15.0
             config.cornerRadius = 5.0
