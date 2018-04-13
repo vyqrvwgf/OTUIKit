@@ -8,10 +8,12 @@
 import UIKit
 
 public extension UIImage {
-    public class func image(named: String, cache: Bool = false) -> UIImage? {
-        var locationURLString = Bundle(for: OTExtensionLocation.self).resourcePath ?? ""
-        locationURLString.append("/OTExtension.bundle")
-        let currentBundle = Bundle(path: locationURLString)
+    public class func image(named: String, namespace: String, cache: Bool = false) -> UIImage? {
+        guard let mainBundlePath = Bundle.main.resourcePath else {
+            return nil
+        }
+        let currentBundlePath = "\(mainBundlePath)/Frameworks/\(namespace).framework/\(namespace).bundle"
+        let currentBundle = Bundle(path: currentBundlePath)
         if cache {
             var path = currentBundle?.resourcePath ?? ""
             path.append("/\(named).png")
