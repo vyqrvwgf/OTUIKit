@@ -58,7 +58,8 @@ public class OTButton: UIButton {
     private func setup(config: OTButtonConfig, state: UIControlState) {
         setTitle(config.title, for: state)
         setTitleColor(config.titleColor, for: state)
-        setImage(UIImage.image(named: config.imageName), for: state)
+        let namespace = Bundle.namespace.components(separatedBy: "_").first ?? ""
+        setImage(UIImage.image(named: config.imageName, namespace: namespace), for: state)
         titleLabel?.font = UIFont.systemFont(ofSize: config.fontSize)
         backgroundColor = config.backgroundColor
         indicator.activityIndicatorViewStyle = config.backgroundColor == .white ? .gray : .white
